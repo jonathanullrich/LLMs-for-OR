@@ -1,0 +1,6 @@
+non_linear_2
+non_linear_3
+non_linear_4
+travelling_salesman
+chinese_postman
+resource_allocation

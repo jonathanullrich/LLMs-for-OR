@@ -1,0 +1,5 @@
+linear_programming_2
+non_linear_2
+travelling_salesman
+chinese_postman
+job_scheduling

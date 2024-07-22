@@ -1,0 +1,11 @@
+linear_programming
+integer_programming
+transportation_problem
+assignment_problem
+non_linear_1
+non_linear_3
+non_linear_4
+travelling_salesman
+knapsack
+job_scheduling
+resource_allocation

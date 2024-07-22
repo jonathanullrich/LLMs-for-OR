@@ -1,0 +1,7 @@
+transportation_problem
+assignment_problem
+non_linear_1
+non_linear_3
+travelling_salesman
+job_scheduling
+resource_allocation

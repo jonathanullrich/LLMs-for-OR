@@ -1,0 +1,5 @@
+non_linear_1
+non_linear_2
+knapsack
+chinese_postman
+job_scheduling

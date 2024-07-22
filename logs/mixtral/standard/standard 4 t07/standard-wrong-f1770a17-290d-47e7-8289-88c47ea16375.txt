@@ -1,0 +1,4 @@
+linear_programming
+transportation_problem
+non_linear_3
+resource_allocation

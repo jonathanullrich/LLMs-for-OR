@@ -1,0 +1,8 @@
+linear_programming
+linear_programming_2
+integer_programming
+transportation_problem
+assignment_problem
+non_linear_3
+job_scheduling
+resource_allocation

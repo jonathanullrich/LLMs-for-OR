@@ -1,0 +1,6 @@
+linear_programming_2
+integer_programming
+transportation_problem
+assignment_problem
+chinese_postman
+resource_allocation

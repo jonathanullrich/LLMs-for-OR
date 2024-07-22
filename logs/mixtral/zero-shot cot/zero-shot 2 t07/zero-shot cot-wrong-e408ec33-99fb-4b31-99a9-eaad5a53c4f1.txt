@@ -1,0 +1,6 @@
+non_linear_1
+non_linear_2
+non_linear_3
+chinese_postman
+job_scheduling
+resource_allocation

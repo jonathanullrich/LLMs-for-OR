@@ -1,0 +1,6 @@
+linear_programming_2
+non_linear_1
+non_linear_2
+non_linear_3
+non_linear_4
+resource_allocation

@@ -1,0 +1,5 @@
+integer_programming
+non_linear_2
+non_linear_3
+chinese_postman
+job_scheduling

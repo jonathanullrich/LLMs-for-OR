@@ -1,0 +1,8 @@
+{
+    "system_prompt": "You are an operations research expert. Write python code to solve the given problem. Assign the final output to a variable 'solution'. Only assign one number.",
+    "problem_description": "Consider the following problem: Taxation can be used as an instrument to curb the demand for cigarettes. Suppose that, for a tax rate t, the average daily consumption per smoker follows the linear function f = 53 - 100*(t/100). If the tax rate is set high, demand will drop, and the tax revenue will drop as well. For the purpose of taxation, the base price per cigarette is 15 cents. Determine the tax rate that maximizes the tax revenue.",
+    "examples": null,
+    "output": "1. Identify the total revenue function. The total revenue is given by the price per cigarette times the number of cigarettes sold times the tax rate. This is given by the function R(t) = P * f(t) * t, where P is the price per cigarette, f(t) is the number of cigarettes sold and t is the tax rate.\n\n2. Substitute the given functions into the total revenue function. We have P = 0.15, f(t) = 53 - 100*(t/100), and t is the variable. So our revenue function becomes R(t) = 0.15 * (53 - t) * t.\n\n3. To find the maximum of this function, we take the derivative and set it equal to zero. This gives us the critical points of the function.\n\n4. We then check the critical points and the endpoints of the interval to see which gives the highest revenue.\n\nLet's implement this in Python.",
+    "code": "",
+    "solution": "COMPILE_ERROR"
+}

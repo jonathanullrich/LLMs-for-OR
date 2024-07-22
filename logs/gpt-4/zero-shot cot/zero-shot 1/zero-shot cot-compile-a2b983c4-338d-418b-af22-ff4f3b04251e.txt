@@ -1,0 +1,9 @@
+integer_programming
+transportation_problem
+non_linear_2
+non_linear_3
+non_linear_4
+travelling_salesman
+chinese_postman
+job_scheduling
+resource_allocation

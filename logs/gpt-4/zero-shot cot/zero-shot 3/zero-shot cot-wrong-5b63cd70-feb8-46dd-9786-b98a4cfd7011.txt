@@ -1,0 +1,6 @@
+linear_programming_2
+transportation_problem
+non_linear_2
+knapsack
+job_scheduling
+resource_allocation

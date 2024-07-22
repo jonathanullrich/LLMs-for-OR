@@ -1,0 +1,8 @@
+{
+    "system_prompt": "You are an operations research expert. Write python code to solve the given problem. Assign the final output to a variable 'solution'. Only assign one number.",
+    "problem_description": "Consider the following problem: Tom would like 3 pints of home brew today and an additional 4 pints of home brew tomorrow. Dick is willing to sell a maximum of 5 pints total at a price of $3.00 per pint today and $2.70 per pint tomorrow. Harry is willing to sell a maximum of 4 pints total at a price of $2.90 per pint today and $2.80 per pint tomorrow. Tom wishes to know what his purchases should be to minimize his cost while satisfying his thirst requirements",
+    "examples": null,
+    "output": "Firstly, we need to define the problem. Tom wants to minimize his cost, so it's a minimization problem. We can use linear programming to solve this problem.\n\nWe have following variables:\nD1 = Amount of pints that Tom buys from Dick today.\nD2 = Amount of pints that Tom buys from Dick tomorrow.\nH1 = Amount of pints that Tom buys from Harry today.\nH2 = Amount of pints that Tom buys from Harry tomorrow.\n\nWe have following constraints:\n1. D1 + D2 <= 5, because Dick can sell a maximum of 5 pints.\n2. H1 + H2 <= 4, because Harry can sell a maximum of 4 pints.\n3. D1 + H1 = 3, because Tom wants 3 pints today.\n4. D2 + H2 = 4, because Tom wants 4 pints tomorrow.\n\nAnd our objective function to minimize is:\n3.00*D1 + 2.70*D2 + 2.90*H1 + 2.80*H2\n\nLet's write a Python code using scipy.optimize.linprog to solve this problem.",
+    "code": "",
+    "solution": "COMPILE_ERROR"
+}

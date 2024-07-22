@@ -1,0 +1,6 @@
+linear_programming_2
+integer_programming
+non_linear_4
+non_linear_5
+travelling_salesman
+resource_allocation

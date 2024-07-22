@@ -1,0 +1,7 @@
+integer_programming
+non_linear_1
+non_linear_2
+non_linear_4
+travelling_salesman
+knapsack
+job_scheduling

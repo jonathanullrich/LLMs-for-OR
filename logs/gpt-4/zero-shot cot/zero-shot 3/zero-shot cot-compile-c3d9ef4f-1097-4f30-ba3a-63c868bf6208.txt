@@ -1,0 +1,7 @@
+linear_programming
+integer_programming
+non_linear_1
+non_linear_3
+non_linear_4
+non_linear_5
+chinese_postman

@@ -1,0 +1,18 @@
+# Ignore compiled bytecode
+*.pyc
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore editor generated files
+*~
+.idea/
+.vscode/
+
+# Ignore dependencies
+/node_modules/
+/bower_components/
+/.venv/
+/.idea/
+/.vscode/

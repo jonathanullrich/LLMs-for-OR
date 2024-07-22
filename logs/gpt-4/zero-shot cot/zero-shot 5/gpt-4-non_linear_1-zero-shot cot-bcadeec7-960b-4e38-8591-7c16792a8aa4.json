@@ -1,0 +1,8 @@
+{
+    "system_prompt": "You are an operations research expert. Write python code to solve the given problem. Assign the final output to a variable 'solution'. Only assign one number.",
+    "problem_description": "Consider the following problem: Taxation can be used as an instrument to curb the demand for cigarettes. Suppose that, for a tax rate t, the average daily consumption per smoker follows the linear function f = 53 - 100*(t/100). If the tax rate is set high, demand will drop, and the tax revenue will drop as well. For the purpose of taxation, the base price per cigarette is 15 cents. Determine the tax rate that maximizes the tax revenue.",
+    "examples": null,
+    "output": "First, we need to understand the relationship between tax revenue, tax rate, and consumption. \n\nTax revenue can be calculated as the product of the number of units sold (in this case, cigarettes) and the tax per unit. Here, the tax per unit is given by the tax rate (t) times the base price of a cigarette (15 cents). However, the number of cigarettes sold decreases as the tax rate increases, according to the function f = 53 - 100*(t/100).\n\nSo, the tax revenue R can be given by the formula:\n\nR = f * t * 0.15\nR = (53 - 100*(t/100)) * t * 0.15\n\nTo maximize the tax revenue, we need to find the tax rate t that maximizes R. This can be done by finding the derivative of R with respect to t, setting it equal to zero, and solving for t. This gives us the tax rate that results in the highest possible tax revenue.\n\nLet's proceed to implement this in Python.",
+    "code": "",
+    "solution": "COMPILE_ERROR"
+}

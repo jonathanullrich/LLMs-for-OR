@@ -1,0 +1,5 @@
+linear_programming
+linear_programming_2
+transportation_problem
+assignment_problem
+knapsack

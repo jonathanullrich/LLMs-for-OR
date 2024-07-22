@@ -1,0 +1,5 @@
+linear_programming_2
+assignment_problem
+non_linear_3
+chinese_postman
+resource_allocation

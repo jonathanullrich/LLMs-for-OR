@@ -1,0 +1,6 @@
+linear_programming_2
+integer_programming
+non_linear_3
+non_linear_4
+job_scheduling
+resource_allocation

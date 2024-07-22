@@ -1,0 +1,8 @@
+{
+    "system_prompt": "You are an operations research expert. Write python code to solve the given problem. Assign the final output to a variable 'solution'. Only assign one number.",
+    "problem_description": "Consider the following problem: Taxation can be used as an instrument to curb the demand for cigarettes. Suppose that, for a tax rate t, the average daily consumption per smoker follows the linear function f = 53 - 100*(t/100). If the tax rate is set high, demand will drop, and the tax revenue will drop as well. For the purpose of taxation, the base price per cigarette is 15 cents. Determine the tax rate that maximizes the tax revenue.",
+    "examples": null,
+    "output": "The tax revenue R in dollars is given by the product of the number of cigarettes sold (53 - 100t/100), the base price per cigarette (15 cents = $0.15) and the tax rate (t):\n\nR = (53 - t) * 0.15 * t\n\nThis is a quadratic function whose graph is a downward-opening parabola. The tax rate t that maximizes the tax revenue is the t-coordinate of the vertex of this parabola.\n\nThe t-coordinate of the vertex of a parabola given by y = ax^2 + bx + c is -b / (2a). In this case, a = -0.15 and b = 53 * 0.15 = 7.95, so the tax rate that maximizes the tax revenue is -7.95 / (2 * -0.15) = 26.5%.\n\nSo the tax rate that maximizes the tax revenue is 26.5%.\n\nThe Python code that calculates this is:\n\n```python\na = -0.15\nb = 53 * 0.15\n\nsolution = -b / (2 * a)\n```\n\nThis will assign 26.5 to the variable 'solution'.",
+    "code": "a = -0.15\nb = 53 * 0.15\n\nsolution = -b / (2 * a)",
+    "solution": 26.5
+}

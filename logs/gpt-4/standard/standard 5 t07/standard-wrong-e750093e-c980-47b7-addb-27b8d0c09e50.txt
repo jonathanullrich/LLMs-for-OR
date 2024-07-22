@@ -1,0 +1,4 @@
+integer_programming
+assignment_problem
+job_scheduling
+resource_allocation

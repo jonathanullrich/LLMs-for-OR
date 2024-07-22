@@ -1,0 +1,4 @@
+integer_programming
+non_linear_1
+chinese_postman
+resource_allocation

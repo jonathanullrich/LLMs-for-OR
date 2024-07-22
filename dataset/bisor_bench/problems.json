@@ -1,0 +1,107 @@
+[
+    {
+        "name": "linear_programming",
+        "class": "linear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 81, 3.1-8.",
+        "description": "The WorldLight Company produces two light fixtures (products 1 and 2) that require both metal frame parts and electrical components. Management wants to determine how many units of each product to produce so as to maximize profit. For each unit of product 1, 1 unit of frame parts and 2 units of electrical components are required. For each unit of product 2, 3 units of frame parts and 2 units of electrical components are required. The company has 200 units of frame parts and 300 units of electrical components. Each unit of product 1 gives a profit of $1, and each unit of product 2, up to 60 units, gives a profit of $2. Any excess over 60 units of product 2 brings no profit, so such an excess has been ruled out. What is the resulting total profit?",
+        "solution": 175
+    },
+    {
+        "name": "linear_programming_2",
+        "class": "linear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 83, 3.2-3.",
+        "description": "This is your lucky day. You have just won a $20,000 prize. You are setting aside $8,000 for taxes and partying expenses, but you have decided to invest the other $12,000. Upon hearing this news, two different friends have offered you an opportunity to become a partner in two different entrepreneurial ventures, one planned by each friend. In both cases, this investment would involve expending some of your time next summer as well as putting up cash. Becoming a full partner in the first friend’s venture would require an investment of $10,000 and 400 hours, and your estimated profit (ignoring the value of your time) would be $9,000. The corresponding figures for the second friend’s venture are $8,000 and 500 hours, with an estimated profit to you of $9,000. However, both friends are flexible and would allow you to come in at any fraction of a full partnership you would like. If you choose a fraction of a full partnership, all the above figures given for a full partnership (money investment, time investment, and your profit) would be multiplied by this same fraction. Because you were looking for an interesting summer job anyway (maximum of 600 hours), you have decided to participate in one or both friends’ ventures in whichever combination would maximize your total estimated profit. You now need to solve the problem of finding the best combination.",
+        "solution": 12000
+    },
+    {
+        "name": "integer_programming",
+        "class": "linear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 534, 12.1-2.",
+        "description": "A young couple, Eve and Steven, want to divide their main household chores (marketing, cooking, dishwashing, and laundering) between them so that each has two tasks but the total time they spend on household duties is kept to a minimum. Their efficiencies on these tasks differ, where the time each would need to perform the task is given by the following. Eve needs 4.5 hours for Marketing, 7.8 hours for Cooking, 3.6 hours for Dishwashing and 2.9 hours for Laundry. Steven needs 4.9 hours for Marketing, 7.2 hours for Cooking, 4.3 hours for Dishwashing and 3.1 hours for Laundry. Calculate the miminum time spend to do the chores.",
+        "solution": 18.4
+    },
+    {
+        "name": "transportation_problem",
+        "class": "linear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 362, 9.1-3.",
+        "description": "Tom would like 3 pints of home brew today and an additional 4 pints of home brew tomorrow. Dick is willing to sell a maximum of 5 pints total at a price of $3.00 per pint today and $2.70 per pint tomorrow. Harry is willing to sell a maximum of 4 pints total at a price of $2.90 per pint today and $2.80 per pint tomorrow. Tom wishes to know what his purchases should be to minimize his cost while satisfying his thirst requirements",
+        "solution": 19.5
+    },
+    {
+        "name": "assignment_problem",
+        "class": "linear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 368, 9.3-4.",
+        "description": "The coach of an age group swim team needs to assign swimmers to a 200-yard medley relay team to send to the Junior Olympics. Since most of his best swimmers are very fast in more than one stroke, it is not clear which swimmer should be assigned to each of the four strokes. The five fastest swimmers and the best times (in seconds) they have achieved in each of the strokes (for 50 yards) are for Backstroke: Carl (37.7), Chris (32.9), David (33.8), Tony (37.0), Ken (35.4); for Breaststroke: Carl (43.4), Chris (33.1), David (42.2), Tony (34.7), Ken (41.8); for Butterfly: Carl (33.3), Chris (28.5), David (38.9), Tony (30.4), Ken (33.6); for Freestyle: Carl (29.2), Chris (26.4), David (29.6), Tony (28.5), Ken (31.1). The coach wishes to determine how to assign four swimmers to the four different strokes to minimize the sum of the corresponding best times. Find the minimum time spend.",
+        "solution": 126.2
+    },
+    {
+        "name": "non_linear_1",
+        "class": "nonlinear",
+        "source": "Taha, H.A., 2007. Operations research. P. 426, 10-6",
+        "description": "Taxation can be used as an instrument to curb the demand for cigarettes. Suppose that, for a tax rate t, the average daily consumption per smoker follows the linear function f = 53 - 100*(t/100). If the tax rate is set high, demand will drop, and the tax revenue will drop as well. For the purpose of taxation, the base price per cigarette is 15 cents. Determine the tax rate that maximizes the tax revenue.",
+        "solution": 26.5
+    },
+    {
+        "name": "non_linear_2",
+        "class": "nonlinear",
+        "source": "Müller-Merbach, H., 1973, Operations research. P. 199, 5.1",
+        "description": "The optimum location is sought for an airfield from which the six airfields A to F can be approached. The optimum location is the airfield for which the sum of the daily flight kilometers is minimal. The distance is assumed to be as the crow flies. The coordinates (x, y) and the number of flights from the airfields are as follows: A (40, 200) 40 flights, B (160, 210) 10 flights, C (250, 160) 20 flights, D (220, 80) 30 flights, E (100, 40) 20 flights, F (30, 100) 10 flights. A swamp area defined by the condition x + y >= 250 and a lake whose area is described by the condition (x - 100)^2 + (y - 100)^2 <= 400 are not suitable for the airfield. Determine the objective function value of the optimal location.",
+        "solution": 13970
+    },
+    {
+        "name": "non_linear_3",
+        "class": "nonlinear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 604, 13.1-4/ 13.7-6.",
+        "description": "A stockbroker has just received a call from his most important client, Ann. Ann has $50,000 to invest and wants to use it to purchase two stocks. Stock 1 is a solid blue-chip security with a respectable growth potential and little risk involved. Stock 2 is much more speculative. It is being touted in two investment newsletters as having outstanding growth potential but also is considered very risky. Ann would like a large return on her investment but also has considerable aversion to risk. Therefore, she has instructed Richard to analyze what mix of investments in the two stocks would be appropriate for her. Ann is used to talking in units of 1,000 dollars and 1,000-share blocks of stocks. Using these units, the price per block is 20 for stock 1 and 30 for stock 2. After doing some research, Richard has made the following estimates. The expected return per block is 5 for stock 1 and 10 for stock 2. The variance of the return on each block is 4 for stock 1 and 100 for stock 2. The covariance of the return on one block each of the two stocks is 5. Calculate the minimum amount of dollars Ann has to invest to achieve a return of 15 percent.",
+        "solution": 109
+    },
+    {
+        "name": "non_linear_4",
+        "class": "nonlinear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 610, 13.7-7.",
+        "description": "The management of the Albert Hanson Company is trying to determine the best product mix for two new products. Because these products would share the same production facilities, the total number of units produced of the two products combined cannot exceed two per hour. Because of uncertainty about how well these products will sell, the profit from producing each product provides decreasing marginal returns as the production rate is increased. In particular, with a production rate of R1 units per hour, it is estimated that Product 1 would provide a profit per hour of $200*R1 - $100*R1^2. If the production rate of product 2 is R2 units per hour, its estimated profit per hour would be $300*R2 - $100*R2^2. Determine the total profit.",
+        "solution": 313
+    },
+    {
+        "name": "non_linear_5",
+        "class": "nonlinear",
+        "source": "Hillier, F.S., 2001. Introduction to operations research. P. 610, 13.8-2.",
+        "description": "The MFG Corporation is planning to produce and market three different products. Let x1, x2, and x3 denote the number of units of the three respective products to be produced. The preliminary estimates of their potential profitability are as follows. For the first 15 units produced of Product 1, the unit profit would be approximately $360. The unit profit would be only $30 for any additional units of Product 1. For the first 20 units produced of Product 2, the unit profit is estimated at $240. The unit profit would be $120 for each of the next 20 units and $90 for any additional units. For the first 20 units of Product 3, the unit profit would be $450. The unit profit would be $300 for each of the next 10 units and $180 for any additional units. Certain limitations on the use of needed resources impose the following constraints on the production of the three products: x1 + x2 + x3 <= 60, 3*x1 + 2*x2 <= 200, x1 + 2*x3 <= 70. Management wants to know what values of x1, x2 and x3 should be chosen to maximize the total profit.",
+        "solution": 18000
+    },
+    {
+        "name": "travelling_salesman",
+        "class": "combinatorial",
+        "source": "Taha, H.A., 2007. Operations research. P. 438, 11.2a-6",
+        "description": "A manager has ten employees working on six projects. Employee 1 works on projects 2, 4, 5. Employee 2 works on projects 1, 3, 5. Employee 3 works on projects 2, 3, 4, 6. Employee 4 works on projects 3, 4, 5. Employee 5 works on projects 1, 2, 3. Employee 6 works on projects 1, 2, 3, 4, 6. Employee 7 works on projects 1, 2, 5, 6. Employee 8 works on projects 1, 3, 4. Employee 9 works on projects 5, 6. Employee 10 works on projects 1, 2, 4, 5, 6. Currently, the manager meets with each employee individually once a week. To reduce the time spend, the manager wants to hold group meetings depending on shared projects. The objective is to schedule the order of meetings to reduce the traffic (number of employees) in and out of the meeting room. Determine the minimal number of employees entering or leaving the meeting room.",
+        "solution": 26
+    },
+    {
+        "name": "knapsack",
+        "class": "combinatorial",
+        "source": "Taha, H.A., 2007. Operations research. P. 292, 6-16",
+        "description": "A hiker has a 5-ft^3 backpack and needs to decide on the most valuable items to take on the hiking trip. There are three items from which to choose. Their volumes are 2, 3, and 4 ft^3, and the hiker estimates their associated values on a scale from 0 to 100 as 30, 50, and 70, respectively. Find the optimal solution.",
+        "solution": 80
+    },
+    {
+        "name": "chinese_postman",
+        "class": "combinatorial",
+        "source": "Müller-Merbach, H., 1973, Operations research. P. 322, 9.1",
+        "description": "A Postman has to walk through each street at least once when delivering letters. He must start and end at Point A. He can walk through a street multiple times and he can do so in both directions. The streets connecting two points and their respective length is: A-B (length 2), A-C (length 2), B-C (length 3), B-D (length 4), D-E (length 3), D-F (length 4), E-F (length 9), E-G (length 3), F-G (length 5), G-H (length 3). Find the route with the minimal length to walk through all the streets.",
+        "solution": 5200
+    },
+    {
+        "name": "job_scheduling",
+        "class": "combinatorial",
+        "source": "Winston, W.L., 2004. Operations research: applications and algorithm. P. 529",
+        "description": "Four jobs must be processed on a single machine. The processing times for the jobs 1, 2, 3 and 4 are 6 days, 4 days, 5 days and 8 days, respectively. Job 1 must be completed by the end of day 8, Job 2 must be completed by the end of day 4, Job 3 must be completed by the end of day 12 and Job 4 must be completed by the end of day 16. What is the minimal time to process the jobs?",
+        "solution": 12
+    },
+    {
+        "name": "resource_allocation",
+        "class": "combinatorial",
+        "source": "Taha, H.A., 2007. Operations research. P. 499",
+        "description": "Luxor Travel arranges 1-week tours to southern Egypt. The agency provides 7, 4, 7, and 8 rental cars over the next 4 weeks. Luxor Travel subcontracts with a local car dealer to supply rental needs. The dealer charges a rental fee of $220 per car per week, plus a flat fee of $500 for any rental transaction. Luxor, however, may elect to keep the rentals for an additional week and simply continue to pay the rent. What is the best way for Luxor Travel to handle the rental situation and customer demand? Determine the minimal cost.",
+        "solution": 6940
+    }
+]

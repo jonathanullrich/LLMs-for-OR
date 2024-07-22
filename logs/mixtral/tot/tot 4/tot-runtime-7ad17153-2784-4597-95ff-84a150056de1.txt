@@ -1,0 +1,4 @@
+travelling_salesman
+knapsack
+job_scheduling
+resource_allocation

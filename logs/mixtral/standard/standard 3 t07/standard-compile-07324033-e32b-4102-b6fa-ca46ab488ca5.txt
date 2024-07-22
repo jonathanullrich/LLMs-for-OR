@@ -1,0 +1,7 @@
+linear_programming
+linear_programming_2
+integer_programming
+assignment_problem
+non_linear_3
+travelling_salesman
+chinese_postman

@@ -1,0 +1,3 @@
+linear_programming
+transportation_problem
+assignment_problem

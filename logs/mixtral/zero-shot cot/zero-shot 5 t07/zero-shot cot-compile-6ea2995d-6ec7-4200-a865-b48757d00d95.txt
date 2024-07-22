@@ -1,0 +1,7 @@
+linear_programming_2
+integer_programming
+transportation_problem
+non_linear_3
+travelling_salesman
+knapsack
+chinese_postman

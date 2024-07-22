@@ -1,0 +1,4 @@
+transportation_problem
+assignment_problem
+chinese_postman
+resource_allocation
